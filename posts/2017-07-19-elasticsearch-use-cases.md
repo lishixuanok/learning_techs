@@ -22,23 +22,23 @@
 
 主要组成部分
 
->> a. lucene-开源索引引擎，倒排索引
+> a. lucene-开源索引引擎，倒排索引
 
->> b. Mapper-attachment-将各种文档比如pdf结构化
+> b. Mapper-attachment-将各种文档比如pdf结构化
 
->> c. Analyzer-分词器明确词界限
+> c. Analyzer-分词器明确词界限
 
 2. 文档数据库
 
 主要组成部分
 
->> a. lucene store field-文档数据库
+> a. lucene store field-文档数据库
 
->> b. translog-事务日志，可还原内存中丢失的数据
+> b. translog-事务日志，可还原内存中丢失的数据
 
->> c. Dynamic-mapping以及schema-free-根据第一次提交的文档自动创建schema, mapping，后面提交的文档需要和该文档类型相同。 
+> c. Dynamic-mapping以及schema-free-根据第一次提交的文档自动创建schema, mapping，后面提交的文档需要和该文档类型相同。 
 
->> d. Query DSL
+> d. Query DSL
 
 ## Refer
 
