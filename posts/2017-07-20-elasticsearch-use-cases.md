@@ -40,6 +40,16 @@
 
 > d. Query DSL
 
+3. 分析引擎
+
+Aggregation
+
+> a. Bucket: 按条目划分
+
+> b. Metrics: 计算，比如sum, 导数, 累计和等
+
+> c. Pipline: 组合多个查询
+
 ## Refer
 
 [Elasticsearch官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
