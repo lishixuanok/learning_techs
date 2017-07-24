@@ -2,5 +2,5 @@
 
 This is record for learning techniques personally.
 
-Initialized on 2017-07-09
+Initialized on 2017-07-19
 
