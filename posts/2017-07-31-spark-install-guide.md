@@ -46,7 +46,7 @@
 
 > sudo mv your_Spark_file /usr/local
 
-> export PATH=$PATH:/usr/local/spark/bin
+> export PATH=$PATH:/usr/local/your_spark_file/bin
 
 检查Spark安装成功
 
