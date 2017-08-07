@@ -97,7 +97,7 @@ $ export PATH=$PATH:/usr/local/your_spark_file/bin
 检查Spark安装成功
 
 ```shell
-$ spark_shell
+$ spark-shell
 ```
 
 返回scala则成功
@@ -132,3 +132,26 @@ $ /usr/local/spark/bin/spark_shell
 $ scala>
 ```
 
+### 持久化添加linux环境变量
+
+修改用户路径下的.bash_profile
+
+```shell
+vi /home/your_user/.bash_profile
+```
+
+修改环境变量
+```shell
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:/usr/local/scala/bin:/usr/local/apache-maven-3.3.9/bin:/usr/local/spark-2.2.0-bin-hadoop2.7/bin/
+
+export PATH
+
+export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:/bin/java::")
+
+```
+
+修改完重启机器即可
+
+```shell
+reboot
+```
