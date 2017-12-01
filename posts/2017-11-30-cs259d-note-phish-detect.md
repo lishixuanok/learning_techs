@@ -114,8 +114,5 @@ IDF: 测量词语在语料库中的流行度
 https://web.stanford.edu/class/cs259d/lectures/Session16.pdf
 
 
-没看懂的
-
-“Here” links to non-modal domain 
 
 
